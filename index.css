@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(130, 158, 235);
+}
+
+.container{
+    text-align: center;
+}
+
+.game_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.game_cell{
+    width: 98px;
+    height: 100px;
+    box-shadow: 0 0 1px blue;    
+    border: 1px solid blue;
+    cursor: pointer;    
+    line-height: 100px;
+    font-size: 60px;
+}
+h1{
+    color: blue;
+}
+
+h2{
+    color: rgb(71, 100, 187);
+}
+
+.restart{
+    border-radius: 10px;
+    color: royalblue;
+    background-color: rgb(172, 187, 231);
+    border-color: blue;
+    height: 30px;
+    width: 70px;
+}
